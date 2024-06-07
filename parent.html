@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Join Our Team</title>
+<style>
+    body {
+        background-color: #fafafa;
+        color: #000;
+        font-family: 'Helvetica', sans-serif;
+    }
+    .navbar, .sidebar {
+        background-color: #0d47a1; /* navy blue */
+        color: #fff;
+        padding: 10px 20px;
+    }
+    .form {
+        background-color: #fff;
+        border: 1px solid #ddd;
+        padding: 20px;
+        border-radius: 10px;
+        margin: 20px auto;
+        width: 50%;
+    }
+    .sidebar {
+        background-color: #1565c0; /* bright blue */
+        color: #fff;
+        padding: 20px;
+        width: 200px;
+        position: fixed;
+    }
+</style>
+</head>
+<body>
+<div class="navbar">Parent Registration</div>
+<div class="sidebar">
+    <h4>Team News</h4>
+    <p>Inspirational Quotes</p>
+    <p>Upcoming Youth Activities</p>
+</div>
+<div class="main">
+    <div class="form">
+        <h2>Registration Form</h2>
+        <form>
+            <label for="childName">Child's Name:</label>
+            <input type="text" id="childName" name="childName"><br><br>
+            <label for="parentName">Parent's Name:</label>
+            <input type="text" id="parentName" name="parentName"><br><br>
+            <label for="contactInfo">Contact Info:</label>
+            <input type="text" id="contactInfo" name="contactInfo"><br><br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</div>
+</body>
+</html>
